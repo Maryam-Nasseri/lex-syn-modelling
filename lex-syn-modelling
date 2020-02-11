@@ -14,7 +14,6 @@ return(Tuk$ï..groups[,1])
 library(boot)
 MeanDifferenceBoot <- boot(AbLongMODV, MeanDifference, 10000)
 print(MeanDifferenceBoot)
-
 #Tukey HSD boot CIs
 for(i in 1:length(MeanDifferenceBoot[[1]])){
 CI <- boot.ci(MeanDifferenceBoot, conf = .95, type = "bca", t0 = MeanDifferenceBoot$t0[i], t = MeanDifferenceBoot$t[,i])
