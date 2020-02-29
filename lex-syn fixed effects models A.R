@@ -1,6 +1,7 @@
 #complementary results of mixed-effect models:
 #lex-syn modelling; Maryam Nasseri
-#the interaction effect of groups and rhetorical sections (labelled as 'genre'), see sections 6.6 and 6.8.3:
+#brief version of the interaction effect of groups and rhetorical sections (labelled as 'genre'), see sections 6.6 and 6.8.3:
+#bootstrapped estimates, p-values and CIs not included
 
 
 ---------------------------------------------------
