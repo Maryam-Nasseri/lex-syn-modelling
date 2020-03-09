@@ -1,5 +1,5 @@
 # lex-syn-modelling
-lex-syn modelling
+#Maryam Nasseri (2020), lex-syn modelling project
 
 
 #below brief version of code for lex and syn modelling
