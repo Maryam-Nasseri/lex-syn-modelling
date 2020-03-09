@@ -88,3 +88,4 @@ model_rf  <- train(groups ~ lex1 + lex2 + lex3 + ..., tuneLength = 3, data = tra
   savePredictions = "final",
   classProbs = T)) 
   confusionMatrix(data=predicted, reference= reference, mode="everything")
+#additional ML modelling using support vector machine in https://github.com/Maryam-Nasseri/lex-syn-SVM
